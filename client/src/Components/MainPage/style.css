@@ -1,0 +1,132 @@
+.media-container {
+    margin: 0rem;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    display: flex;
+    
+}
+
+.carousel {
+    width: 70%;
+    justify-content: stretch;
+}
+
+.video-player {
+    width: 40%;
+}
+
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25%
+}
+
+.react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.button-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.coloumn-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: solid 0.5px;
+    padding: 16px;
+    width: 300px;
+    height: 120px;
+    text-align: center;
+    background-color: #f1f1f1;
+    transition: transform .2s; 
+
+}
+.coloumn-card:hover{
+    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.4);
+    background-color: #fff;
+    color: #98144d;
+    transform: scale(1.05);
+    
+}
+
+.btn-container{
+    margin-top: 25px;
+    width: 30%;
+    margin-left: 35px;
+    justify-content: space-between;
+}
+
+.btn-emi{
+    
+    border-style: none;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform .2s;
+}
+.btn-emi:hover{
+    background-color:  #98144d;
+    color: linen;
+    transform: scale(1.05);
+}
+
+.blog-container{
+    width: 80%;
+    margin: 20px;
+}
+.blog{
+    display: flex;
+    text-align: justify;
+}
+h4{
+    color: #AEADAD;
+}
+.vl{
+    border-left: #c0bfbf solid 0.1rem;
+}
+.hl{
+    border-bottom:  #c0bfbf solid 0.1rem;
+}
+.portfolio-container{
+    width: 100%;
+    height: 350px;
+    
+}
+.img-wrap{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 350px;
+    background-image: url(
+        "./img1.jpg"
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.portfolio-card{
+    text-align: center;
+    width: 250px;
+    height: 300px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.circle-container{
+    margin:50px 50px 25px 25px;
+    padding: 45px;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border: solid white 0.3rem;
+    border-radius: 50%;
+    background-color: transparent;
+    justify-content: center;
+    
+}

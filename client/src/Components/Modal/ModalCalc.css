@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.input-container{
+    width: 70%;
+    /* margin: 15px; */
+    padding: 25px;
+}
+.emi-container{
+    width: 30%;
+    background-color: rgb(177, 174, 174);
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 60px;
+}
