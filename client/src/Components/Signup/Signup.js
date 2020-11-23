@@ -7,6 +7,7 @@ export default class Signup extends Component {
             <div>
                 <div className='container'>
                     <div className="wrap-container">
+                        <img src="./logo.png" alt=""/>
                     <h2>Signup</h2>
                         <form className='form'>
                             <div className="row row-space">
