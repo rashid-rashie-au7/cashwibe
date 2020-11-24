@@ -1,0 +1,117 @@
+.grid-container{
+    display: grid;
+    grid-template-areas: "info"
+    "main"
+    "footer";
+    grid-template-rows: 7rem 1fr 5rem;
+    grid-template-columns: 1fr;
+    height: 100% ;
+  }
+  main{
+    grid-area: main;
+  }
+  footer{
+    grid-area: footer; 
+    background-color: teal;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+info{
+    grid-area: info;
+    color: #ffffff;
+    align-items: center;
+}
+  .content{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main{
+    flex: 3 60rem;
+  }
+ 
+
+  .info-container{
+      display: flex;
+      justify-content: space-evenly;
+      padding: 15px;
+  }
+  
+  .info-card{
+      width: 170px;
+      height: 80px;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      border-radius: 5px;
+      box-shadow: 2px 4px 8px 0 rgba(0.1, 0, 0, 0.4);
+      background-color:#98144d ;
+      color: #ffffff;
+  }
+  .info-card h4{
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 28px;
+      font-weight: bold;
+  }
+  .info-card span,p{
+    font-size: 13px;
+    margin: 0%;
+    font-weight: normal;
+    text-decoration:unset;
+    padding:  0%;
+  }
+.info-card:hover{
+    background-color: #d1055d;
+
+}
+
+  .status-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+  }
+  .status-card{
+      width: 300px;
+      height: 350px;
+      box-shadow: 4px 4px 8px 0 rgba(0.0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 8px;
+  }
+  .status-card h6{
+      text-align: center;
+      font-weight: bold;
+  }
+  .dlist-align {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: left; 
+    margin: 0%;
+    padding-bottom: 10px;
+}
+.dlist-align dt {
+    width: 110px;
+    word-wrap: break-word;
+    font-weight: normal; 
+}
+.dlist-align dd {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1; 
+}
+.status-btn{
+    padding: 0;
+    text-align: center;
+}
+.btn-status{
+    border-style: none;
+    width: 150px;
+    height:50px ;
+    border-radius: 40px;
+    background-color:#98144d ;
+    color: #ffffff;
+}
+.btn-status:hover{
+    background-color: #d1055d;
+}
