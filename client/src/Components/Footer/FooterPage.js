@@ -19,7 +19,7 @@ export default class FooterPage extends Component {
                             <h5>Contact Us</h5>
                             <dl className="dlist-align">
                                 <dt><FontAwesomeIcon icon={faPhoneAlt} size="lg" /></dt>
-                                <dd style={{fontFamily:'sans-serif'}} >1800 1478 1236</dd>
+                                <dd style={{ fontFamily: 'sans-serif' }} >1800 1478 1236</dd>
                             </dl>
                             <dl className="dlist-align">
                                 <dt><FontAwesomeIcon icon={faEnvelope} size="lg" /></dt>
@@ -33,7 +33,7 @@ export default class FooterPage extends Component {
                             </dl>
                         </div>
                         <div className="card-body">
-                        <h5>Legal</h5>
+                            <h5>Legal</h5>
                             <div>
                                 <dl className="dlist-align">
                                     <dd >Terms & Condition</dd>
@@ -46,7 +46,7 @@ export default class FooterPage extends Component {
                                 </dl>
                                 <dl className="dlist-align">
                                     <dd>Corporate Social Responsibility Policy</dd>
-                                </dl>     
+                                </dl>
                             </div>
 
                         </div>
