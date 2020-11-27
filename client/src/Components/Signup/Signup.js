@@ -24,10 +24,19 @@ export default class Signup extends Component {
                                     </div>
                                 </div>
                             </div>
-                        
-                            <div className="input-group">
-                                    <label className="label">Email</label>
-                                    <input className="input-style" type='email' name= 'email'></input>
+                            <div className="row row-space">
+                                <div className="inputcoloumn">
+                                    <div className="input-group">
+                                            <label className="label">Email</label>
+                                            <input className="input-style" type='email' name= 'email'></input>
+                                    </div>
+                                </div>
+                                <div className="inputcoloumn">
+                                    <div className="input-group">
+                                            <label className="label">Mobile</label>
+                                            <input className="input-style" type='text' name= 'mob'></input>
+                                    </div>
+                                </div>
                             </div>
                             <div className="row row-space">
                                 <div className="inputcoloumn">
